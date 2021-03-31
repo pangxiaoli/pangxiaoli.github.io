@@ -2,9 +2,9 @@
 function snowFall(snow) {
     /* 可配置属性 */
     snow = snow || {};
-    this.maxFlake = snow.maxFlake || 400;   /* 最多片数 */
-    this.flakeSize = snow.flakeSize || 10;  /* 雪花形状 */
-    this.fallSpeed = snow.fallSpeed || 1;   /* 坠落速度 */
+    this.maxFlake = snow.maxFlake || 600;   /* 最多片数 */
+    this.flakeSize = snow.flakeSize || 12;  /* 雪花形状 */
+    this.fallSpeed = snow.fallSpeed || 2;   /* 坠落速度 */
 }
 /* 兼容写法 */
 requestAnimationFrame = window.requestAnimationFrame ||
