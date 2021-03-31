@@ -2,7 +2,7 @@
 function snowFall(snow) {
     /* 可配置属性 */
     snow = snow || {};
-    this.maxFlake = snow.maxFlake || 600;   /* 最多片数 */
+    this.maxFlake = snow.maxFlake || 800;   /* 最多片数 */
     this.flakeSize = snow.flakeSize || 12;  /* 雪花形状 */
     this.fallSpeed = snow.fallSpeed || 2;   /* 坠落速度 */
 }
