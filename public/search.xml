@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>标签外挂</title>
+      <link href="2021/04/01/05/"/>
+      <url>2021/04/01/05/</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>标签外挂是hexo特有的</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 语法 </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux修改/home下的目录名为英文</title>
       <link href="2021/03/28/04/"/>
       <url>2021/03/28/04/</url>
