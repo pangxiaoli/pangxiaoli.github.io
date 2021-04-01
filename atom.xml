@@ -6,7 +6,7 @@
   <link href="http://zwrx.xyz/atom.xml" rel="self"/>
   
   <link href="http://zwrx.xyz/"/>
-  <updated>2021-04-01T09:02:40.580Z</updated>
+  <updated>2021-04-01T09:12:55.261Z</updated>
   <id>http://zwrx.xyz/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://zwrx.xyz/2021/04/01/05/"/>
     <id>http://zwrx.xyz/2021/04/01/05/</id>
     <published>2021-04-01T09:00:58.000Z</published>
-    <updated>2021-04-01T09:02:40.580Z</updated>
+    <updated>2021-04-01T09:12:55.261Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><p>标签外挂是hexo特有的</p></div>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><p>标签外挂是hexo特有的表现方式</p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;标签外挂是hexo特有的&lt;/p&gt;
+    <summary type="html">&lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;标签外挂是hexo特有的表现方式&lt;/p&gt;
 &lt;/div&gt;</summary>
       
     
