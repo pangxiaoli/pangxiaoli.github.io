@@ -6,7 +6,7 @@
   <link href="http://zwrx.xyz/atom.xml" rel="self"/>
   
   <link href="http://zwrx.xyz/"/>
-  <updated>2021-04-09T13:25:02.521Z</updated>
+  <updated>2021-04-09T13:54:45.479Z</updated>
   <id>http://zwrx.xyz/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://zwrx.xyz/2021/04/09/09/"/>
     <id>http://zwrx.xyz/2021/04/09/09/</id>
     <published>2021-04-09T13:24:50.000Z</published>
-    <updated>2021-04-09T13:25:02.521Z</updated>
+    <updated>2021-04-09T13:54:45.479Z</updated>
     
     <content type="html"><![CDATA[<div class="note info flat"><p>something</p></div>]]></content>
     
@@ -34,6 +34,10 @@
     
     
     
+    
+    <category term="API" scheme="http://zwrx.xyz/tags/API/"/>
+    
+    <category term="足迹地图" scheme="http://zwrx.xyz/tags/%E8%B6%B3%E8%BF%B9%E5%9C%B0%E5%9B%BE/"/>
     
   </entry>
   
