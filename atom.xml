@@ -42,7 +42,7 @@
     <link href="http://zwrx.xyz/2021/04/13/11/"/>
     <id>http://zwrx.xyz/2021/04/13/11/</id>
     <published>2021-04-13T08:55:44.000Z</published>
-    <updated>2021-04-15T14:31:31.287Z</updated>
+    <updated>2021-04-15T14:32:52.119Z</updated>
     
     <content type="html"><![CDATA[<div class="note info flat"><p>常说的vps、虚拟主机、云服务器等等的名词代表的东西都有什么不一样？</p></div><h1>1. vps主机</h1><p><em><strong>解释：</strong></em><br>vps全称 Virtual Private Server 虚拟专用服务器。VPS 技术分为容器技术和虚拟机技术。</p><p>vps主机是指使用 vps 技术将一台真实服务器容器化或虚拟化为多台虚拟小主机，每个 VPS 主机都可分配独立公网IP地址、独立操作系统、实现不同 VPS主机间磁盘、内存、CPU资源、进程和系统配置的隔离，为应用程序模拟出真实的计算资源。</p><p><em><strong>优势：</strong></em><br>VPS 主机可以像独立服务器一样，重装操作系统，安装程序，单独重启服务器。VPS 主机提供了管理配置的自由，可用于企业虚拟化，也可以用于IDC资源租用。</p><p><em><strong>缺陷：</strong></em><br>由于 VPS 主机是建立在虚拟机或容器技术之上，服务器本该供 VPS 主机使用的总资源会随着 VPS 主机的增多而被虚拟机或容器消耗，性能无法得到保证。<br>同时，如果母服务器出现故障，这台服务器上的所有 VPS 主机都将出故障。</p><p><em>举个栗子</em>： 一台服务器虚拟化为5台 VPS 主机，这5台 VPS 主机真正能使用的资源是服务器除去虚拟机后剩下的资源，随着 VPS 主机的增多，虚拟机占用的资源也会随之增多。</p><p>一般而言：容器技术效率更高，容器比虚拟机占用的资源要少，但同时容器的功能也比虚拟机相对要少</p><h1>2. 云服务器</h1><p>云服务器也叫云主机(Cloud Server)</p><p><em><strong>解释：</strong></em><br>云主机是将服务器集群的计算资源通过虚拟化技术分割成多个类似独立服务器的部分，集群里的所有服务器上都有云主机的一个镜像，</p><p><em><strong>优势：</strong></em></p><p><em><strong>缺陷：</strong></em></p><h1>3. 虚拟主机</h1><p><em>解释：</em></p><p><em>优势：</em></p><p><em>缺陷：</em></p>]]></content>
     
@@ -51,7 +51,9 @@
     
     
     
-    <category term="积累 - 名词解释" scheme="http://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF-%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/"/>
+    <category term="积累" scheme="http://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/"/>
+    
+    <category term="名词解释" scheme="http://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/"/>
     
     
     <category term="vps" scheme="http://zwrx.xyz/tags/vps/"/>
