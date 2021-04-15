@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>日记一则</title>
+      <link href="2021/04/15/12/"/>
+      <url>2021/04/15/12/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="权限不足，请勿尝试！" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="b53f5cd8462a76face378b42ceb97df7f6855e247f9148c8c67e21b3d7b98f40">10d79030e8222445804370796b90fca13d0e91ddbfe90aeab5b3b0f5b0a8d54148839d023f877b3c297a3c3c8e51def74e05270dfc5919438c967027a203e6aa0d2fdcb80b5d957aa6db3c0554666eb530c4d1e30608a4d480c00e7654530346</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">仅本人可读哦～</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>名词解释|空间篇</title>
       <link href="2021/04/13/11/"/>
       <url>2021/04/13/11/</url>
@@ -13,7 +38,7 @@
       
       <categories>
           
-          <category> 积累/名词解释 </category>
+          <category> 积累 - 名词解释 </category>
           
       </categories>
       
@@ -147,7 +172,7 @@
       <link href="2021/04/03/06/"/>
       <url>2021/04/03/06/</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>hexo 页面头部信息</p></div><p><em>内容：</em></p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aside:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br></pre></td></tr></table></figure><p><em>作用：</em></p><ol><li>title：【必需】标题</li><li>date：【必需】创建日期</li><li>type：【可选】类型</li><li>updated：【可选】更新日期</li><li>description：【可选】描述</li><li>tags:     【可选】标签</li><li>categories:    【可选】分类</li><li>comments：【可选】是否显示评论模块(默认 true)</li><li>top_img：【可选】顶部图片</li><li>katex：【可选】用于渲染公式，（默认 false）</li><li>aside：【可选】显示侧边栏 (默认 true)</li><li>aplayer：【可选】加载aplayer的js和css (默认 true)</li><li>highlight_shrink：【可选】配置代码框是否展开 (true | false)</li></ol>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>hexo 页面头部信息</p></div><ol><li>title【必需】文章标题</li><li>date【必需】文章创建日期</li><li>updated【可选】文章更新日期</li><li>tags【可选】文章标籤</li><li>categories【可选】文章分类</li><li>keywords【可选】文章关键字</li><li>description【可选】文章描述</li><li>top_img【可选】文章顶部图片</li><li>cover【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)</li><li>comments【可选】显示文章评论模块(默认 true)</li><li>toc【可选】显示文章TOC(默认为设置中toc的enable配置)</li><li>toc_number【可选】显示toc_number(默认为设置中toc的number配置)</li><li>copyright【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</li><li>copyright_author【可选】文章版权模块的文章作者</li><li>copyright_author_href【可选】文章版权模块的文章作者链接</li><li>copyright_url【可选】文章版权模块的文章连结链接</li><li>copyright_info【可选】文章版权模块的版权声明文字</li><li>katex【可选】显示katex</li><li>aplayer【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</li><li>highlight_shrink【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</li><li>aside【可选】显示侧边栏 (默认 true)</li><li>sticky 【可选】文章置顶。数值越大，置顶的优先级越大。</li><li>加密相关：<ol><li>password: “passwd”</li><li>theme: xray</li><li>message: 有东西被加密了, 请输入密码查看.</li><li>wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</li></ol></li></ol>]]></content>
       
       
       <categories>
