@@ -6,7 +6,7 @@
   <link href="http://zwrx.xyz/atom.xml" rel="self"/>
   
   <link href="http://zwrx.xyz/"/>
-  <updated>2021-04-15T14:31:10.959Z</updated>
+  <updated>2021-04-15T15:00:57.852Z</updated>
   <id>http://zwrx.xyz/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://zwrx.xyz/2021/04/15/12/"/>
     <id>http://zwrx.xyz/2021/04/15/12/</id>
     <published>2021-04-15T14:25:28.000Z</published>
-    <updated>2021-04-15T14:31:10.959Z</updated>
+    <updated>2021-04-15T15:00:57.852Z</updated>
     
     <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="权限不足，请勿尝试！" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="b53f5cd8462a76face378b42ceb97df7f6855e247f9148c8c67e21b3d7b98f40">10d79030e8222445804370796b90fca13d0e91ddbfe90aeab5b3b0f5b0a8d54148839d023f877b3c297a3c3c8e51def74e05270dfc5919438c967027a203e6aa0d2fdcb80b5d957aa6db3c0554666eb530c4d1e30608a4d480c00e7654530346</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">仅本人可读哦～</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
@@ -42,7 +42,7 @@
     <link href="http://zwrx.xyz/2021/04/13/11/"/>
     <id>http://zwrx.xyz/2021/04/13/11/</id>
     <published>2021-04-13T08:55:44.000Z</published>
-    <updated>2021-04-15T14:32:52.119Z</updated>
+    <updated>2021-04-15T15:00:42.266Z</updated>
     
     <content type="html"><![CDATA[<div class="note info flat"><p>常说的vps、虚拟主机、云服务器等等的名词代表的东西都有什么不一样？</p></div><h1>1. vps主机</h1><p><em><strong>解释：</strong></em><br>vps全称 Virtual Private Server 虚拟专用服务器。VPS 技术分为容器技术和虚拟机技术。</p><p>vps主机是指使用 vps 技术将一台真实服务器容器化或虚拟化为多台虚拟小主机，每个 VPS 主机都可分配独立公网IP地址、独立操作系统、实现不同 VPS主机间磁盘、内存、CPU资源、进程和系统配置的隔离，为应用程序模拟出真实的计算资源。</p><p><em><strong>优势：</strong></em><br>VPS 主机可以像独立服务器一样，重装操作系统，安装程序，单独重启服务器。VPS 主机提供了管理配置的自由，可用于企业虚拟化，也可以用于IDC资源租用。</p><p><em><strong>缺陷：</strong></em><br>由于 VPS 主机是建立在虚拟机或容器技术之上，服务器本该供 VPS 主机使用的总资源会随着 VPS 主机的增多而被虚拟机或容器消耗，性能无法得到保证。<br>同时，如果母服务器出现故障，这台服务器上的所有 VPS 主机都将出故障。</p><p><em>举个栗子</em>： 一台服务器虚拟化为5台 VPS 主机，这5台 VPS 主机真正能使用的资源是服务器除去虚拟机后剩下的资源，随着 VPS 主机的增多，虚拟机占用的资源也会随之增多。</p><p>一般而言：容器技术效率更高，容器比虚拟机占用的资源要少，但同时容器的功能也比虚拟机相对要少</p><h1>2. 云服务器</h1><p>云服务器也叫云主机(Cloud Server)</p><p><em><strong>解释：</strong></em><br>云主机是将服务器集群的计算资源通过虚拟化技术分割成多个类似独立服务器的部分，集群里的所有服务器上都有云主机的一个镜像，</p><p><em><strong>优势：</strong></em></p><p><em><strong>缺陷：</strong></em></p><h1>3. 虚拟主机</h1><p><em>解释：</em></p><p><em>优势：</em></p><p><em>缺陷：</em></p>]]></content>
     
@@ -163,7 +163,7 @@
     <link href="http://zwrx.xyz/2021/04/03/06/"/>
     <id>http://zwrx.xyz/2021/04/03/06/</id>
     <published>2021-04-03T12:28:24.000Z</published>
-    <updated>2021-04-15T14:26:38.279Z</updated>
+    <updated>2021-04-15T15:00:12.503Z</updated>
     
     <content type="html"><![CDATA[<div class="note info flat"><p>hexo 页面头部信息</p></div><ol><li>title【必需】文章标题</li><li>date【必需】文章创建日期</li><li>updated【可选】文章更新日期</li><li>tags【可选】文章标籤</li><li>categories【可选】文章分类</li><li>keywords【可选】文章关键字</li><li>description【可选】文章描述</li><li>top_img【可选】文章顶部图片</li><li>cover【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)</li><li>comments【可选】显示文章评论模块(默认 true)</li><li>toc【可选】显示文章TOC(默认为设置中toc的enable配置)</li><li>toc_number【可选】显示toc_number(默认为设置中toc的number配置)</li><li>copyright【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</li><li>copyright_author【可选】文章版权模块的文章作者</li><li>copyright_author_href【可选】文章版权模块的文章作者链接</li><li>copyright_url【可选】文章版权模块的文章连结链接</li><li>copyright_info【可选】文章版权模块的版权声明文字</li><li>katex【可选】显示katex</li><li>aplayer【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</li><li>highlight_shrink【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</li><li>aside【可选】显示侧边栏 (默认 true)</li><li>sticky 【可选】文章置顶。数值越大，置顶的优先级越大。</li><li>加密相关：<ol><li>password: “passwd”</li><li>theme: xray</li><li>message: 有东西被加密了, 请输入密码查看.</li><li>wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</li></ol></li></ol>]]></content>
     
