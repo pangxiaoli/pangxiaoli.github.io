@@ -3889,25 +3889,25 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)"
+                content: "GG"
             })
         },
         secondpart = function () {
             botui.message.add({
                 delay: 1000,
-                content: "就读于重庆交通大学"
+                content: "就读于北京交通大学"
             }).then(function () {
                 botui.message.add({
                     delay: 1000,
-                    content: "是在计算机专业学物联网工程的程序媛"
+                    content: "以Mirage/胖小离为ID混迹在互联网的各个角落"
                 }).then(function () {
                     botui.message.add({
                         delay: 1000,
-                        content: "将敲代码看成一种快乐"
+                        content: "主修小前端，正在～化掉～"
                     }).then(function () {
                         botui.message.add({
                             delay: 1000,
-                            content: "主修 Java 和 Python,略知 linux,偶尔也搞 HTML/CSS/JavaScript/Spring"
+                            content: "略知 Linux,偶尔也搞 Python/C/C++"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1000,
@@ -3920,7 +3920,7 @@ function bot_ui_ini() {
                                     botui.action.button({
                                         delay: 1000,
                                         action: [{
-                                            text: "为什么叫cungudafa呢？🤔",
+                                            text: "为什么叫Mirage呢？🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
@@ -3936,28 +3936,13 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1e3,
-                content: "cungudafa是村姑大发的拼音，大发在韩语发音中时很厉害的意思。"
-            }).then(function () {
-                botui.action.button({
-                    delay: 1500,
-                    action: [{
-                        text: "为什么叫村姑呢？",
-                        value: "why-cat"
-                    }]
-                }).then(function (a) {
-                    fourthpart()
-                })
-            })
-        },
-        fourthpart = function () {
-            botui.message.add({
-                delay: 1e3,
-                content: "我的游戏名叫村姑,后来也有人叫我村姑学姐 "
+                content: "忽闻海上有仙山，山在虚无缥缈间"
             }).then(function () {
                 botui.message.add({
-                    delay: 1100,
-                    content: "希望自己打游戏很厉害吧，哈哈哈"
-                }).then(function () {
+                    delay: 1e3,
+                    content: "希望自己能坚守一个目标，尽管他虚无缥缈"
+                })
+            }).then(function () {
                     botui.action.button({
                         delay: 1500,
                         action: [{
@@ -3965,19 +3950,26 @@ function bot_ui_ini() {
                             value: "why-domain"
                         }]
                     }).then(function (a) {
-                        fifthpart()
+                        fourthpart()
                     })
                 })
-            })
-        },
-        fifthpart = function () {
+            },
+        fourthpart = function () {
             botui.message.add({
                 delay: 1e3,
-                content: "emmmm,csdn,github,都是cungudafa哦"
+                content: "也许，明天我就会换到这一个域名吧👉blog.mirage.wang"
+            }).then(function () {
+                botui.action.button({
+                    delay: 1500,
+                    action: [{
+                        text: "有什么想对我说的吗？",
+                        value: "say-to-me"
+                    }]
+                })
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
-                    content: "那么，相遇就是缘分，赏个赞吧 ^_^"
+                    content: "相遇就是缘分，感谢您阅读我的博客 ^_^"
                 })
             })
         }
