@@ -3911,7 +3911,7 @@ function bot_ui_ini() {
                         }).then(function () {
                             botui.message.add({
                                 delay: 1000,
-                                content: ""
+                                content: "..."
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1000,
