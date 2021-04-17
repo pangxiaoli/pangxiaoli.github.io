@@ -3848,8 +3848,6 @@
     }
 });
 
-location.reload();
-
 function bot_ui_ini() {
     var botui = new BotUI("hello-mirage");
     botui.message.add({

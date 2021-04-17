@@ -21,8 +21,8 @@
 .botui-message-content {
     padding: 7px 13px;
     border-radius: 15px;
-    color: #000000;
-    background-color: #ffffff
+    color: #ffffff;
+    background-color: #4400ff
 }
 
 .botui-message-content.human {
