@@ -3899,11 +3899,11 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1000,
-                    content: "以Mirage/胖小离为ID混迹在互联网的各个角落"
+                    content: "以Mirage/胖小离为ID混迹在互联网的各个角落🍀"
                 }).then(function () {
                     botui.message.add({
                         delay: 1000,
-                        content: "主修小前端，正在～化掉～"
+                        content: "主修小前端，正在学后端<del>的路上<del>划掉🐛"
                     }).then(function () {
                         botui.message.add({
                             delay: 1000,
@@ -3911,11 +3911,11 @@ function bot_ui_ini() {
                         }).then(function () {
                             botui.message.add({
                                 delay: 1000,
-                                content: "专业方向，物联网及智能家居(Internet of things)及机器视觉(machine version)"
+                                content: ""
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1000,
-                                    content: "喜欢看韩剧和玩手游"
+                                    content: "..."
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1000,
@@ -3943,21 +3943,21 @@ function bot_ui_ini() {
                     content: "希望自己能坚守一个目标，尽管他虚无缥缈"
                 })
             }).then(function () {
-                    botui.action.button({
-                        delay: 1500,
-                        action: [{
-                            text: "域名有什么含义吗？",
-                            value: "why-domain"
-                        }]
-                    }).then(function (a) {
-                        fourthpart()
-                    })
+                botui.action.button({
+                    delay: 1500,
+                    action: [{
+                        text: "域名有什么含义吗？",
+                        value: "why-domain"
+                    }]
+                }).then(function (a) {
+                    fourthpart()
                 })
-            },
+            })
+        },
         fourthpart = function () {
             botui.message.add({
                 delay: 1e3,
-                content: "也许，明天我就会换到这一个域名吧👉blog.mirage.wang"
+                content: "也许，明天我就会换到这一个域名吧 👉 [blog.mirage.wang](http://blog.mirage.wang)^"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
@@ -3965,12 +3965,16 @@ function bot_ui_ini() {
                         text: "有什么想对我说的吗？",
                         value: "say-to-me"
                     }]
+                }).then(function (a) {
+                    fifthpart()
                 })
-            }).then(function () {
-                botui.message.add({
-                    delay: 1600,
-                    content: "相遇就是缘分，感谢您阅读我的博客 ^_^"
-                })
+            })
+        },
+
+        fifthpart = function () {
+            botui.message.add({
+                delay: 1600,
+                content: "相遇就是缘分，感谢您阅读我的博客 ^_^"
             })
         }
 }
