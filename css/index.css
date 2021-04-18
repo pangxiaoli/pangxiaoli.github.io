@@ -4388,8 +4388,8 @@ _:future,
 #article-container.post-content h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
-  color: #5470ff;
-  content: '\f400';
+  color: #35f;
+  content: '\f1bb';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
