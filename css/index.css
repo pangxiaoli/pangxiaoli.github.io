@@ -4389,7 +4389,7 @@ _:future,
   position: absolute;
   top: calc(50% - 0.35rem);
   color: #5470ff;
-  content: '\f1bb';
+  content: '\f400';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
