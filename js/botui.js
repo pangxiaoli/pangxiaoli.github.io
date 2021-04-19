@@ -3889,7 +3889,7 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "GG"
+                content: "就贼可爱的那种🙄"
             })
         },
         secondpart = function () {
@@ -3939,7 +3939,7 @@ function bot_ui_ini() {
                 })
             }).then(function () {
                 botui.action.button({
-                    delay: 1000,
+                    delay: 2000,
                     action: [{
                         text: "域名有什么含义吗？",
                         value: "why-domain"
