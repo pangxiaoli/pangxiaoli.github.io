@@ -1,13 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-.tk-input[data-v-619b4c52] .el-textarea__inner {
-    min-height: 210px !important;
-}
-
-.el-textarea__inner:focus {
-    background-image: none !important;
-}
-
 .botui-container {
     font-size: 14px;
     background-color: rgba(55, 70, 230, 0);

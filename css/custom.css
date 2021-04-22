@@ -122,3 +122,11 @@ p.top {
     border-top-width: 5px;
     border-top-color: var(--Color);
 }
+
+.tk-input[data-v-619b4c52] .el-textarea__inner {
+    min-height: 210px !important;
+}
+
+.el-textarea__inner:focus {
+    background-image: none !important;
+}
