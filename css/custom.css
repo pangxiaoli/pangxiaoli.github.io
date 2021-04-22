@@ -2,6 +2,11 @@ body {
     cursor: url(https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/default.cur), default
 }
 
+/* #web_bg {
+    background: linear-gradient(to right bottom, rgb(0, 255, 240), rgb(92, 159, 247) 40%, rgb(211, 34, 255) 80%);
+} */
+
+
 a,
 img {
     cursor: url(https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/pointer.cur), default
