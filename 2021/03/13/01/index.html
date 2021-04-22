@@ -1,0 +1,463 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Markdown语法 | Mirageの胖团子</title><meta name="keywords" content="markdown,语法"><meta name="author" content="Mirage"><meta name="copyright" content="Mirage"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="学习使用 Mrakdown">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown语法">
+<meta property="og:url" content="http://zwrx.xyz/2021/03/13/01/index.html">
+<meta property="og:site_name" content="Mirageの胖团子">
+<meta property="og:description" content="学习使用 Mrakdown">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/article/0.jpg">
+<meta property="article:published_time" content="2021-03-13T14:29:51.000Z">
+<meta property="article:modified_time" content="2021-04-03T12:53:01.259Z">
+<meta property="article:author" content="Mirage">
+<meta property="article:tag" content="markdown">
+<meta property="article:tag" content="语法">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/article/0.jpg"><link rel="shortcut icon" href="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/zwrx/icon.png"><link rel="canonical" href="http://zwrx.xyz/2021/03/13/01/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="code-JhNPC9HxQU"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8551f3f0d8f80feeb463032ba82e56c6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fonts.font.im/css?family=Emilys+Candy" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"./public/search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":20,"position":"top","messagePrev":"温馨提示：这篇文章距离上次更新已经超过","messageNext":"天了，部分内容可能已经过时，给您造成不便，深感抱歉🍭"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":200,"languages":{"author":"作者: Mirage","link":"链接: ","source":"来源: Mirageの胖团子","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-04-03 20:53:01'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Mirageの胖团子" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/zwrx/head.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">14</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">23</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 我的</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-photo-video"></i><span> 相册</span></a></li><li><a class="site-page" href="/secret/"><i class="fa-fw fas fa-parachute-box"></i><span> 秘密</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/talk/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/say/"><i class="fa-fw fab fa-hotjar"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/me/"><i class="fa-fw fas fa-user-tie"></i><span> 博主</span></a></li><li><a class="site-page" href="/about/"><i class="fa-fw fas fa-map-marker"></i><span> 本站</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://wei-1300806220.cos.ap-shanghai.myqcloud.com/article/0.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Mirageの胖团子</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 我的</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-photo-video"></i><span> 相册</span></a></li><li><a class="site-page" href="/secret/"><i class="fa-fw fas fa-parachute-box"></i><span> 秘密</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/talk/"><i class="fa-fw fas fa-comments"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/say/"><i class="fa-fw fab fa-hotjar"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/me/"><i class="fa-fw fas fa-user-tie"></i><span> 博主</span></a></li><li><a class="site-page" href="/about/"><i class="fa-fw fas fa-map-marker"></i><span> 本站</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Markdown语法</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-03-13T14:29:51.000Z" title="发表于 2021-03-13 22:29:51">2021-03-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-04-03T12:53:01.259Z" title="更新于 2021-04-03 20:53:01">2021-04-03</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%85%B6%E4%BB%96/">其他</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.5k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>5分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><div class="note info flat"><p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。</p>
+</div>
+<h1>标题</h1>
+<p>在想要设置为标题的文字前面加#来表示<br>
+一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p>
+<p><strong>注：标准语法#后跟个空格再写文字，而且markdown的标记字符全部为英文半角</strong></p>
+<h1>字体</h1>
+<ul>
+<li>
+<p>加粗</p>
+<p>要加粗的文字左右分别用两个*号包起来</p>
+</li>
+<li>
+<p>斜体</p>
+<p>要倾斜的文字左右分别用一个*号包起来</p>
+</li>
+<li>
+<p>斜体加粗</p>
+<p>要倾斜和加粗的文字左右分别用三个*号包起来</p>
+</li>
+<li>
+<p>删除线</p>
+<p>要加删除线的文字左右分别用两个~~号包起来</p>
+</li>
+</ul>
+<p><em>效果：</em></p>
+<p><strong>这是加粗的文字</strong></p>
+<p><em>这是倾斜的文字</em></p>
+<p><em><strong>这是斜体加粗的文字</strong></em></p>
+<p><s>这是加删除线的文字</s></p>
+<h1>换行与段落</h1>
+<h2 id="换行">换行</h2>
+<p>markdown使用两个或多个空格来换行，你也可以使用html的<code>&lt;br&gt;</code>标签来换行**（如果你在第一行行为不敲几个空格或者<code>&lt;br&gt;</code>而直接回车，markdown渲染的时候会当作一行来对待）**</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这是第一行   &lt;---注意这里的空格</span><br><span class="line">这是第二行</span><br><span class="line">------or------</span><br><span class="line">这是第一行<span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span></span><br><span class="line">这是第二行</span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<p>这是第一行<br>
+这是第二行<br>
+------or------<br>
+这是第一行<br><br>
+这是第二行</p>
+<h2 id="段落">段落</h2>
+<p>在连续两个段落之间空上一行就会形成两个段落</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">这是第一段</span><br><span class="line"><span class="code">		 	&lt;---注意这里的空行</span></span><br><span class="line"><span class="code">这是第二段</span></span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<p>这是第一段</p>
+<p>这是第二段</p>
+<h1>引用</h1>
+<p>在引用的文字前加&gt;即可。</p>
+<p>引用也可以嵌套，如加两个&gt;&gt;,三个&gt;&gt;&gt;,n个…</p>
+<p><em>效果：</em></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 引用1</span></span><br><span class="line">&gt;&gt; 引用2</span><br><span class="line">&gt;&gt;&gt; 引用3</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>引用1</p>
+<blockquote>
+<p>引用2</p>
+<blockquote>
+<p>引用3</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1>分割线</h1>
+<p>三个或者三个以上的 - 或者 * 都可以。</p>
+<p><em>效果：</em></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">----</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong">****</span>*</span></span></span><br></pre></td></tr></table></figure>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1>图片</h1>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">alt</span>](<span class="link">URL &quot;title&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>alt就是显示在图片下面的文字，相当于对图片内容的解释。</p>
+<p>title是图片的标题，当鼠标移到图片上时显示的内容。</p>
+<p>alt和title可加可不加</p>
+<h1>超链接</h1>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">超链接名</span>](<span class="link">URL &quot;title&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>title可加可不加</p>
+<div class="note warning flat"><p>超链接和图片相比就是少了一个前面的感叹号</p>
+</div>
+<h1>列表</h1>
+<h2 id="无序列表">无序列表</h2>
+<p>语法：无序列表用 - + * 任何一种都可以</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 列表内容</span><br><span class="line"><span class="bullet">+</span> 列表内容</span><br><span class="line"><span class="bullet">*</span> 列表内容</span><br><span class="line"></span><br><span class="line">注意：- + <span class="emphasis">* 跟内容之间都要有一个空格</span></span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<h2 id="有序列表">有序列表</h2>
+<p>语法：数字加点</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 列表内容</span><br><span class="line"><span class="bullet">2.</span> 列表内容</span><br><span class="line"><span class="bullet">3.</span> 列表内容</span><br><span class="line"></span><br><span class="line">注意空格</span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<h2 id="列表嵌套">列表嵌套</h2>
+<p>下一级列表开头敲3个空格即可</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 父级列表</span><br><span class="line"><span class="bullet">-</span> 父级列表</span><br><span class="line"></span><br><span class="line"><span class="bullet">   -</span> 子级列表</span><br><span class="line"><span class="bullet">   -</span> 子级列表</span><br><span class="line"></span><br><span class="line">注意：有序无序可以混合使用，比如父级列表使用有序列表，而子级列表使用无序列表</span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<ul>
+<li>
+<p>父级列表</p>
+</li>
+<li>
+<p>父级列表</p>
+<ul>
+<li>子级列表</li>
+<li>子级列表</li>
+</ul>
+</li>
+</ul>
+<h1>复选框</h1>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 这是未选中的复选框</span><br><span class="line"><span class="bullet">-</span> [X] 这是选中了的复选框</span><br><span class="line"></span><br><span class="line">----------------------</span><br><span class="line">短线、空格、方括号、空格，注意未选中的复选框方括号中间也有一个空格</span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<ul>
+<li>[ ] 这是未选中的复选框</li>
+<li>[X] 这是选中了的复选框</li>
+</ul>
+<h1>表格</h1>
+<p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">表头|表头|表头</span><br><span class="line">---|:--:|---:</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br></pre></td></tr></table></figure>
+<p>第二行分割表头和内容。</p>
+<p>短线有一个就行，但不限数量</p>
+<p>文字默认左对齐</p>
+<p>短线边加冒号表示居中对齐</p>
+<p>短线右边加短线表示右对齐</p>
+<p>短线左边加短线表示左对齐</p>
+<p>*效果：*注意对齐方式：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">姓名</th>
+<th style="text-align:center">阵营</th>
+<th style="text-align:right">编号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">曹操</td>
+<td style="text-align:center">魏</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">刘备</td>
+<td style="text-align:center">蜀</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">孙权</td>
+<td style="text-align:center">吴</td>
+<td style="text-align:right">3</td>
+</tr>
+</tbody>
+</table>
+<h1>代码</h1>
+<h2 id="单行代码">单行代码</h2>
+<p>一行代码用一对反引号引起来,第一个反引号后面加空格</p>
+<p><em>效果：</em></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">` print(&quot;hello&quot;)`</span></span><br></pre></td></tr></table></figure>
+<p><code> print(&quot;hello&quot;)</code></p>
+<h2 id="代码块">代码块</h2>
+<p>上下分别用三个反引号或三个~括起来，前三个反引号后面可以跟上是什么语言，便于编辑器实现代码高亮</p>
+<p><em>效果：</em></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">```语言</span></span><br><span class="line"><span class="code">代码块</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>* argv[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    print(<span class="string">&quot;Mirage的胖团子&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1>公式</h1>
+<h2 id="行内公式">行内公式</h2>
+<p>使用一对<code>$ $</code>包裹公式（大部分编辑器支持Latex语法）</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">爱因斯坦的质能方程 $E = mc^2$❤</span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<p>爱因斯坦的质能方程 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E = mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>❤</p>
+<h2 id="公式块">公式块</h2>
+<p>使用一对<code>$$   $$</code>包裹公式</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">真值表：\\</span><br><span class="line">\begin&#123;array&#125;&#123;cc|c&#125;</span><br><span class="line"><span class="code">	       A&amp;B&amp;F\\</span></span><br><span class="line"><span class="code">	\hline 0&amp;0&amp;0\\</span></span><br><span class="line"><span class="code">	       0&amp;1&amp;1\\</span></span><br><span class="line"><span class="code">	       1&amp;0&amp;1\\</span></span><br><span class="line"><span class="code">	       1&amp;1&amp;1\\</span></span><br><span class="line"><span class="code">\end&#123;array&#125;</span></span><br><span class="line"><span class="code">$$</span></span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>真值表：</mtext><mspace linebreak="newline"></mspace><mtable rowspacing="0.15999999999999992em" columnalign="center center center" columnlines="none solid" columnspacing="1em" rowlines="solid none none none"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>A</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>B</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi>F</mi></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd></mtr></mtable></mrow><annotation encoding="application/x-tex">真值表：\\
+\begin{array}{cc|c}
+	       A&amp;B&amp;F\\
+	\hline 0&amp;0&amp;0\\
+	       0&amp;1&amp;1\\
+	       1&amp;0&amp;1\\
+	       1&amp;1&amp;1\\
+\end{array}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord cjk_fallback">真</span><span class="mord cjk_fallback">值</span><span class="mord cjk_fallback">表</span><span class="mord cjk_fallback">：</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:6.000000000000001em;vertical-align:-2.7500000000000004em;"></span><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.2500000000000004em;"><span style="top:-5.25em;"><span class="pstrut" style="height:5.25em;"></span><span class="mtable"><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.2500000000000004em;"><span style="top:-5.410000000000001em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">A</span></span></span><span style="top:-4.21em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span><span style="top:-3.01em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span><span style="top:-1.8099999999999998em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-0.6099999999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.7500000000000004em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.2500000000000004em;"><span style="top:-5.410000000000001em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span><span style="top:-4.21em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span><span style="top:-3.01em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-1.8099999999999998em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span><span style="top:-0.6099999999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.7500000000000004em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="vertical-separator" style="height:6.000000000000001em;border-right-width:0.04em;border-right-style:solid;margin:0 -0.02em;vertical-align:-2.7500000000000004em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.2500000000000004em;"><span style="top:-5.410000000000001em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span><span style="top:-4.21em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span><span style="top:-3.01em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-1.8099999999999998em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-0.6099999999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.7500000000000004em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span></span></span><span style="top:-7.300000000000001em;"><span class="pstrut" style="height:5.25em;"></span><span class="hline" style="border-bottom-width:0.04em;"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.7500000000000004em;"><span></span></span></span></span></span></span></span></span></span></p>
+<h1>流程图</h1>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">```flow</span></span><br><span class="line"><span class="code">st=&gt;start: 开始</span></span><br><span class="line"><span class="code">op=&gt;operation: My Operation</span></span><br><span class="line"><span class="code">cond=&gt;condition: Yes or No?</span></span><br><span class="line"><span class="code">e=&gt;end</span></span><br><span class="line"><span class="code">st-&gt;op-&gt;cond</span></span><br><span class="line"><span class="code">cond(yes)-&gt;e</span></span><br><span class="line"><span class="code">cond(no)-&gt;op</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
+<p>部分markdown编辑器不支持流程图，以下是typora的渲染结果：</p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/article/1.png" alt="Typora渲染图" title="流程图"></p>
+<h1>转义字符</h1>
+<p>markdown使用反斜杠作为转义字符</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">\\	&lt;---这是一个反斜杠</span><br><span class="line">\<span class="emphasis">*	&lt;---这是一个星号</span></span><br><span class="line"><span class="emphasis">\#	&lt;---这是一个井号</span></span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<p>\	&lt;—这是一个反斜杠<br>
+*	&lt;—这是一个星号<br>
+#	&lt;—这是一个井号</p>
+<h1>html标签</h1>
+<p>markdown支持直接使用部分html标签（具体是否支持与编辑器渲染策略有关）</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">按<span class="xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>mod<span class="xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span>+<span class="xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>Enter<span class="xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span>键打开Terminal</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">i</span>&gt;</span></span>斜体<span class="xml"><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">sub</span>&gt;</span></span>下标<span class="xml"><span class="tag">&lt;/<span class="name">sub</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">sup</span>&gt;</span></span>上标<span class="xml"><span class="tag">&lt;/<span class="name">sup</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><em>效果：</em></p>
+<p>按<kbd>mod</kbd>+<kbd>Enter</kbd>键打开Terminal<br>
+<i>斜体</i><br>
+<sub>下标</sub><br>
+<sup>上标</sup></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Mirage</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://zwrx.xyz/2021/03/13/01/">http://zwrx.xyz/2021/03/13/01/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://zwrx.xyz" target="_blank">Mirageの胖团子</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/markdown/">markdown</a><a class="post-meta__tags" href="/tags/%E8%AF%AD%E6%B3%95/">语法</a></div><div class="post_share"><div class="social-share" data-image="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/article/0.jpg" data-sites="wechat,weibo,qq,qzone,douban,linkedin,facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/zwrx/wx.png" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/zwrx/wx.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/zwrx/zfb.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/zwrx/zfb.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021/03/15/02/"><img class="prev-cover" data-lazy-src="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/article/2.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">git</div></div></a></div><div class="next-post pull-right"><a href="/2021/03/13/00/"><img class="next-cover" data-lazy-src="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/zwrx/picture.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">hello world</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2021/04/01/05/" title="标签外挂"><img class="cover" data-lazy-src="https://wei-1300806220.cos.ap-shanghai.myqcloud.com/article/7.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-01</div><div class="title">标签外挂</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">标题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">字体</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">换行与段落</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8D%A2%E8%A1%8C"><span class="toc-number">3.1.</span> <span class="toc-text">换行</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD"><span class="toc-number">3.2.</span> <span class="toc-text">段落</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">4.</span> <span class="toc-text">引用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">5.</span> <span class="toc-text">分割线</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">6.</span> <span class="toc-text">图片</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">7.</span> <span class="toc-text">超链接</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">8.</span> <span class="toc-text">列表</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">8.1.</span> <span class="toc-text">无序列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">8.2.</span> <span class="toc-text">有序列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97"><span class="toc-number">8.3.</span> <span class="toc-text">列表嵌套</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">9.</span> <span class="toc-text">复选框</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">10.</span> <span class="toc-text">表格</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">11.</span> <span class="toc-text">代码</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E8%A1%8C%E4%BB%A3%E7%A0%81"><span class="toc-number">11.1.</span> <span class="toc-text">单行代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">11.2.</span> <span class="toc-text">代码块</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">12.</span> <span class="toc-text">公式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%8C%E5%86%85%E5%85%AC%E5%BC%8F"><span class="toc-number">12.1.</span> <span class="toc-text">行内公式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AC%E5%BC%8F%E5%9D%97"><span class="toc-number">12.2.</span> <span class="toc-text">公式块</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">13.</span> <span class="toc-text">流程图</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">14.</span> <span class="toc-text">转义字符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">15.</span> <span class="toc-text">html标签</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 By Mirage</div><div class="framework-info"><span>由 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">&</span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a><span> 强力驱动</span></div><div class="footer_custom_text">用文字记录生活<br><img src="https://icp.gov.moe/images/ico64.png" class="icp-icon"/><a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20218013" target="_blank"> 20218013号</a><br><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn">京ICP备2021012262号</a><br><img src="https://adbplay-1304990710.cos.ap-nanjing.myqcloud.com/police_beian.png" class="icp-icon"/><a target="_blank" rel="noopener" href="http://www.beian.gov.cn">京公网安备11010802034869</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css"><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', '', 'katex-wrap')
+  })
+})()</script><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      false && mermaid.init()
+    })
+  }
+}</script><script>(()=>{
+  const $countDom = document.getElementById('twikoo-count')
+  const init = () => {
+    let initData = {
+      el: '#twikoo-wrap',
+      envId: 'hello-cloudbase-2g78q764e9a1323d',
+      region: 'ap-shanghai'
+    }
+
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    twikoo.init(initData)
+  }
+
+  const getCount = () => {
+    twikoo.getCommentsCount({
+      envId: 'hello-cloudbase-2g78q764e9a1323d',
+      region: 'ap-shanghai',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      $countDom.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const loadTwikoo = (bool = false) => {
+    if (typeof twikoo === 'object') {
+      init()
+      bool && $countDom && setTimeout(getCount,0)
+    } else {
+      getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(()=> {
+        init()
+        bool && $countDom && setTimeout(getCount,0)
+      })
+    }
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo(true)
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script></div><link rel="stylesheet" href="/css/custom.css" medis="defer" onload="this.media='all'"><div class="aplayer no-destroy" data-id="6661684850" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="list" data-preload="none" data-autoplay="false" data-theme="#008fff" muted></div><script type="text/javascript" src="/js/botui.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="true"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2d_models/haruna/22/model.2016.xmas.2.json"},"display":{"position":"right","width":250,"height":400},"mobile":{"show":true},"react":{"opacity":0.8},"log":false});</script></body></html>
