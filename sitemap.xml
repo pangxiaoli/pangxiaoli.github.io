@@ -317,14 +317,14 @@
   </url>
   
   <url>
-    <loc>http://zwrx.xyz/Gallery/Somebody/index.html</loc>
+    <loc>http://zwrx.xyz/Gallery/Somewhere/index.html</loc>
     
     <lastmod>2021-03-31</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zwrx.xyz/Gallery/Somewhere/index.html</loc>
+    <loc>http://zwrx.xyz/Gallery/Somebody/index.html</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -501,6 +501,13 @@
   </url>
   
   <url>
+    <loc>http://zwrx.xyz/tags/linux/</loc>
+    <lastmod>2021-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zwrx.xyz/tags/git/</loc>
     <lastmod>2021-04-26</lastmod>
     <changefreq>daily</changefreq>
@@ -516,13 +523,6 @@
   
   <url>
     <loc>http://zwrx.xyz/tags/%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2021-04-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zwrx.xyz/tags/linux/</loc>
     <lastmod>2021-04-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -629,14 +629,14 @@
   </url>
   
   <url>
-    <loc>http://zwrx.xyz/categories/%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://zwrx.xyz/categories/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2021-04-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zwrx.xyz/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://zwrx.xyz/categories/%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2021-04-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -671,14 +671,14 @@
   </url>
   
   <url>
-    <loc>http://zwrx.xyz/categories/%E6%9D%82%E8%AE%B0/</loc>
+    <loc>http://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
     <lastmod>2021-04-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
+    <loc>http://zwrx.xyz/categories/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2021-04-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
