@@ -6,7 +6,7 @@
   <link href="http://zwrx.xyz/atom.xml" rel="self"/>
   
   <link href="http://zwrx.xyz/"/>
-  <updated>2021-04-22T02:26:37.701Z</updated>
+  <updated>2021-04-18T14:21:58.593Z</updated>
   <id>http://zwrx.xyz/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>王者荣耀攻略第一弹</title>
-    <link href="http://zwrx.xyz/2021/04/22/13/"/>
-    <id>http://zwrx.xyz/2021/04/22/13/</id>
-    <published>2021-04-22T02:23:09.000Z</published>
-    <updated>2021-04-22T02:26:37.701Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><p>something</p></div>]]></content>
-    
-    
-    <summary type="html">基础篇</summary>
-    
-    
-    
-    <category term="王者荣耀" scheme="http://zwrx.xyz/categories/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/"/>
-    
-    
-    <category term="王者荣耀" scheme="http://zwrx.xyz/tags/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80/"/>
-    
-    <category term="攻略" scheme="http://zwrx.xyz/tags/%E6%94%BB%E7%95%A5/"/>
-    
-    <category term="游戏" scheme="http://zwrx.xyz/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
   
   <entry>
     <title>日记一则</title>
