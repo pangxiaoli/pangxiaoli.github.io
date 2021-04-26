@@ -3889,13 +3889,13 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "就贼可爱的那种🙄"
+                content: "就贼可爱的那种😄"
             })
         },
         secondpart = function () {
             botui.message.add({
                 delay: 1000,
-                content: "就读于北京交通大学"
+                content: "就读于北下关军事基地"
             }).then(function () {
                 botui.message.add({
                     delay: 1000,
@@ -3903,7 +3903,7 @@ function bot_ui_ini() {
                 }).then(function () {
                     botui.message.add({
                         delay: 1000,
-                        content: "主修小前端，正在蠕动向后端🐛"
+                        content: "主修小前端"
                     }).then(function () {
                         botui.message.add({
                             delay: 1000,
@@ -3930,16 +3930,16 @@ function bot_ui_ini() {
         },
         thirdpart = function () {
             botui.message.add({
-                delay: 1000,
+                delay: 1500,
                 content: "忽闻海上有仙山，山在虚无缥缈间"
             }).then(function () {
                 botui.message.add({
-                    delay: 1000,
+                    delay: 1500,
                     content: "事在人为，希望自己能坚守一个目标，尽管他虚无缥缈。"
                 })
             }).then(function () {
                 botui.action.button({
-                    delay: 2000,
+                    delay: 3000,
                     action: [{
                         text: "域名有什么含义吗？",
                         value: "why-domain"
@@ -3951,11 +3951,11 @@ function bot_ui_ini() {
         },
         fourthpart = function () {
             botui.message.add({
-                delay: 1000,
+                delay: 1500,
                 content: "也许，明天我就会换到这一个域名吧 👉 [blog.mirage.wang](http://blog.mirage.wang)^"
             }).then(function () {
                 botui.action.button({
-                    delay: 1000,
+                    delay: 1500,
                     action: [{
                         text: "有什么想对我说的吗？",
                         value: "say-to-me"
@@ -3968,8 +3968,13 @@ function bot_ui_ini() {
 
         fifthpart = function () {
             botui.message.add({
-                delay: 1000,
+                delay: 1500,
                 content: "相遇就是缘分，感谢您阅读我的博客 ^_^"
+            }).then(function () {
+                botui.message.add({
+                    delay: 1500,
+                    content: "都看到这了，留个言吧🍭"
+                })
             })
         }
 }
