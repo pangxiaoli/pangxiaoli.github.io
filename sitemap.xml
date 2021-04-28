@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zwrx.xyz/map/index.html</loc>
+    
+    <lastmod>2021-04-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zwrx.xyz/about/index.html</loc>
     
     <lastmod>2021-04-27</lastmod>
@@ -473,7 +480,7 @@
 
   <url>
     <loc>https://zwrx.xyz/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -481,140 +488,140 @@
   
   <url>
     <loc>https://zwrx.xyz/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/markdown/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E8%AF%AD%E6%B3%95/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/git/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/vim/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/linux/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/hexo/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E8%AE%A1%E7%BB%84/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E5%AE%9A%E5%BE%8B/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/API/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E8%B6%B3%E8%BF%B9%E5%9C%B0%E5%9B%BE/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/JavaScript/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/shell/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/zsh/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/vps/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/ECS/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -623,63 +630,63 @@
   
   <url>
     <loc>https://zwrx.xyz/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/hexo/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/%E8%AE%A1%E7%BB%84/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
-    <lastmod>2021-04-27</lastmod>
+    <lastmod>2021-04-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
