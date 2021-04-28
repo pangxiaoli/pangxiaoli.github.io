@@ -6,7 +6,7 @@
   <link href="https://zwrx.xyz/atom.xml" rel="self"/>
   
   <link href="https://zwrx.xyz/"/>
-  <updated>2021-04-27T00:03:29.399Z</updated>
+  <updated>2021-04-28T13:55:46.239Z</updated>
   <id>https://zwrx.xyz/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>服务器搭积木|git篇</title>
+    <link href="https://zwrx.xyz/2021/04/28/14/"/>
+    <id>https://zwrx.xyz/2021/04/28/14/</id>
+    <published>2021-04-28T13:39:45.000Z</published>
+    <updated>2021-04-28T13:55:46.239Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><p>搭建git私服，将你的仓库托管到云端</p></div><p>git的远程仓库主要用于多人协作与备份，GitHub就是一个免费托管开源代码的远程仓库。这里只是为了方便搭建其他服务，如：Hexo</p><h1>创建git用户</h1><p>对特定服务创建特定用户最大的好处就是方便权限管理</p><ol><li>新建git组</li></ol>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> groupadd git</span></span><br></pre></td></tr></table></figure><ol start="2"><li>新建git用户并添加到git组</li></ol>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> useradd -g git -d /home/git -m git</span></span><br></pre></td></tr></table></figure><ol start="3"><li>修改默认shell</li></ol><p>这一步并非必须的</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;搭建git私服，将你的仓库托管到云端&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;git的远程仓库主要用于多人协作与备份，GitHub就是一个免费托管开源代码的远程仓库。这里只是为了方便搭建其他服务，如：Hexo&lt;/p&gt;
+&lt;h1&gt;创建</summary>
+      
+    
+    
+    
+    <category term="服务器" scheme="https://zwrx.xyz/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+    <category term="git" scheme="https://zwrx.xyz/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>服务器搭积木|总述篇</title>
+    <link href="https://zwrx.xyz/2021/04/28/13/"/>
+    <id>https://zwrx.xyz/2021/04/28/13/</id>
+    <published>2021-04-28T13:11:57.000Z</published>
+    <updated>2021-04-28T13:39:27.893Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><p>生命在于折腾，凡事计较值不值得便没有意义，只要有一人能理解你，此生足矣！</p></div><p>服务器上像搭积木一样搭了很多服务，稍微记录一下，防止遗忘</p><h1>git 私服</h1><h1>在线图书馆 calbre-web</h1><h1>v2ray</h1><h1>图床</h1><h1>Minecraft 私服</h1><h1>博客</h1>]]></content>
+    
+    
+    <summary type="html">那些搭在服务器上的『积木块』</summary>
+    
+    
+    
+    <category term="服务器" scheme="https://zwrx.xyz/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+    <category term="服务器" scheme="https://zwrx.xyz/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>日记一则</title>

@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>服务器搭积木|git篇</title>
+      <link href="2021/04/28/14/"/>
+      <url>2021/04/28/14/</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>搭建git私服，将你的仓库托管到云端</p></div><p>git的远程仓库主要用于多人协作与备份，GitHub就是一个免费托管开源代码的远程仓库。这里只是为了方便搭建其他服务，如：Hexo</p><h1>创建git用户</h1><p>对特定服务创建特定用户最大的好处就是方便权限管理</p><ol><li>新建git组</li></ol>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> groupadd git</span></span><br></pre></td></tr></table></figure><ol start="2"><li>新建git用户并添加到git组</li></ol>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> useradd -g git -d /home/git -m git</span></span><br></pre></td></tr></table></figure><ol start="3"><li>修改默认shell</li></ol><p>这一步并非必须的</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 服务器 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>服务器搭积木|总述篇</title>
+      <link href="2021/04/28/13/"/>
+      <url>2021/04/28/13/</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>生命在于折腾，凡事计较值不值得便没有意义，只要有一人能理解你，此生足矣！</p></div><p>服务器上像搭积木一样搭了很多服务，稍微记录一下，防止遗忘</p><h1>git 私服</h1><h1>在线图书馆 calbre-web</h1><h1>v2ray</h1><h1>图床</h1><h1>Minecraft 私服</h1><h1>博客</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 服务器 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 服务器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日记一则</title>
       <link href="2021/04/15/12/"/>
       <url>2021/04/15/12/</url>
