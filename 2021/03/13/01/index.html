@@ -184,7 +184,7 @@
 <p><em><strong>这是斜体加粗的文字</strong></em></p>
 <p><s>这是加删除线的文字</s></p>
 <h1>换行与段落</h1>
-<h2 id="换行"><a class="header-anchor" href="#换行">¶</a>换行</h2>
+<h2 id="换行">换行</h2>
 <p>markdown使用两个或多个空格来换行，你也可以使用html的<code>&lt;br&gt;</code>标签来换行**（如果你在第一行行为不敲几个空格或者<code>&lt;br&gt;</code>而直接回车，markdown渲染的时候会当作一行来对待）**</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这是第一行   &lt;---注意这里的空格</span><br><span class="line">这是第二行</span><br><span class="line">------or------</span><br><span class="line">这是第一行<span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span></span><br><span class="line">这是第二行</span><br></pre></td></tr></table></figure>
 <p><em>效果：</em></p>
@@ -193,7 +193,7 @@
 ------or------<br>
 这是第一行<br><br>
 这是第二行</p>
-<h2 id="段落"><a class="header-anchor" href="#段落">¶</a>段落</h2>
+<h2 id="段落">段落</h2>
 <p>在连续两个段落之间空上一行就会形成两个段落</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">这是第一段</span><br><span class="line"><span class="code">		 	&lt;---注意这里的空行</span></span><br><span class="line"><span class="code">这是第二段</span></span><br></pre></td></tr></table></figure>
 <p><em>效果：</em></p>
@@ -232,7 +232,7 @@
 <div class="note warning flat"><p>超链接和图片相比就是少了一个前面的感叹号</p>
 </div>
 <h1>列表</h1>
-<h2 id="无序列表"><a class="header-anchor" href="#无序列表">¶</a>无序列表</h2>
+<h2 id="无序列表">无序列表</h2>
 <p>语法：无序列表用 - + * 任何一种都可以</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 列表内容</span><br><span class="line"><span class="bullet">+</span> 列表内容</span><br><span class="line"><span class="bullet">*</span> 列表内容</span><br><span class="line"></span><br><span class="line">注意：- + <span class="emphasis">* 跟内容之间都要有一个空格</span></span><br></pre></td></tr></table></figure>
 <p><em>效果：</em></p>
@@ -245,7 +245,7 @@
 <ul>
 <li>列表内容</li>
 </ul>
-<h2 id="有序列表"><a class="header-anchor" href="#有序列表">¶</a>有序列表</h2>
+<h2 id="有序列表">有序列表</h2>
 <p>语法：数字加点</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 列表内容</span><br><span class="line"><span class="bullet">2.</span> 列表内容</span><br><span class="line"><span class="bullet">3.</span> 列表内容</span><br><span class="line"></span><br><span class="line">注意空格</span><br></pre></td></tr></table></figure>
 <p><em>效果：</em></p>
@@ -254,7 +254,7 @@
 <li>列表内容</li>
 <li>列表内容</li>
 </ol>
-<h2 id="列表嵌套"><a class="header-anchor" href="#列表嵌套">¶</a>列表嵌套</h2>
+<h2 id="列表嵌套">列表嵌套</h2>
 <p>下一级列表开头敲3个空格即可</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 父级列表</span><br><span class="line"><span class="bullet">-</span> 父级列表</span><br><span class="line"></span><br><span class="line"><span class="bullet">   -</span> 子级列表</span><br><span class="line"><span class="bullet">   -</span> 子级列表</span><br><span class="line"></span><br><span class="line">注意：有序无序可以混合使用，比如父级列表使用有序列表，而子级列表使用无序列表</span><br></pre></td></tr></table></figure>
 <p><em>效果：</em></p>
@@ -314,23 +314,23 @@
 </tbody>
 </table>
 <h1>代码</h1>
-<h2 id="单行代码"><a class="header-anchor" href="#单行代码">¶</a>单行代码</h2>
+<h2 id="单行代码">单行代码</h2>
 <p>一行代码用一对反引号引起来,第一个反引号后面加空格</p>
 <p><em>效果：</em></p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">` print(&quot;hello&quot;)`</span></span><br></pre></td></tr></table></figure>
 <p><code> print(&quot;hello&quot;)</code></p>
-<h2 id="代码块"><a class="header-anchor" href="#代码块">¶</a>代码块</h2>
+<h2 id="代码块">代码块</h2>
 <p>上下分别用三个反引号或三个~括起来，前三个反引号后面可以跟上是什么语言，便于编辑器实现代码高亮</p>
 <p><em>效果：</em></p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">```语言</span></span><br><span class="line"><span class="code">代码块</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>* argv[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    print(<span class="string">&quot;Mirage的胖团子&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h1>公式</h1>
-<h2 id="行内公式"><a class="header-anchor" href="#行内公式">¶</a>行内公式</h2>
+<h2 id="行内公式">行内公式</h2>
 <p>使用一对<code>$ $</code>包裹公式（大部分编辑器支持Latex语法）</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">爱因斯坦的质能方程 $E = mc^2$❤</span><br></pre></td></tr></table></figure>
 <p><em>效果：</em></p>
 <p>爱因斯坦的质能方程 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E = mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>❤</p>
-<h2 id="公式块"><a class="header-anchor" href="#公式块">¶</a>公式块</h2>
+<h2 id="公式块">公式块</h2>
 <p>使用一对<code>$$   $$</code>包裹公式</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">真值表：\\</span><br><span class="line">\begin&#123;array&#125;&#123;cc|c&#125;</span><br><span class="line"><span class="code">	       A&amp;B&amp;F\\</span></span><br><span class="line"><span class="code">	\hline 0&amp;0&amp;0\\</span></span><br><span class="line"><span class="code">	       0&amp;1&amp;1\\</span></span><br><span class="line"><span class="code">	       1&amp;0&amp;1\\</span></span><br><span class="line"><span class="code">	       1&amp;1&amp;1\\</span></span><br><span class="line"><span class="code">\end&#123;array&#125;</span></span><br><span class="line"><span class="code">$$</span></span><br></pre></td></tr></table></figure>
 <p><em>效果：</em></p>

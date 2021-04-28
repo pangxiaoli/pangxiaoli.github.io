@@ -157,13 +157,13 @@
 <p>git的远程仓库主要用于多人协作与备份，GitHub就是一个免费托管开源代码的远程仓库。这里只是为了方便搭建其他服务，如：Hexo</p>
 <h1>创建git用户</h1>
 <p>对特定服务创建特定用户最大的好处就是方便权限管理</p>
-<h2 id="新建git组"><a class="header-anchor" href="#新建git组">¶</a>新建git组</h2>
+<h2 id="新建git组">新建git组</h2>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> groupadd git</span></span><br></pre></td></tr></table></figure>
-<h2 id="新建git用户并添加到git组"><a class="header-anchor" href="#新建git用户并添加到git组">¶</a>新建git用户并添加到git组</h2>
+<h2 id="新建git用户并添加到git组">新建git用户并添加到git组</h2>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> useradd -g git -d /home/git -m git</span></span><br></pre></td></tr></table></figure>
-<h2 id="设置密码"><a class="header-anchor" href="#设置密码">¶</a>设置密码</h2>
+<h2 id="设置密码">设置密码</h2>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> passwd git</span></span><br></pre></td></tr></table></figure>
-<h2 id="修改默认shell"><a class="header-anchor" href="#修改默认shell">¶</a>修改默认shell</h2>
+<h2 id="修改默认shell">修改默认shell</h2>
 <p>这一步并非必须的，只是有些情况下默认shell非常难用，连tab补全和上键返回上一条命令都不支持😖</p>
 <ul>
 <li>
@@ -183,7 +183,7 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> chsh -s /bin/bash</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h2 id="添加sudo权限"><a class="header-anchor" href="#添加sudo权限">¶</a>添加sudo权限</h2>
+<h2 id="添加sudo权限">添加sudo权限</h2>
 <p>同样不是必须的，仅仅为了方便</p>
 <ul>
 <li>
