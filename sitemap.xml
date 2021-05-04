@@ -345,13 +345,6 @@
   </url>
   
   <url>
-    <loc>https://zwrx.xyz/Gallery/Somewhere/index.html</loc>
-    
-    <lastmod>2021-03-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://zwrx.xyz/Gallery/Somebody/index.html</loc>
     
     <lastmod>2021-03-31</lastmod>
@@ -366,7 +359,7 @@
   </url>
   
   <url>
-    <loc>https://zwrx.xyz/live2d_models/haruna/22/model.2016.xmas.2.json</loc>
+    <loc>https://zwrx.xyz/Gallery/Somewhere/index.html</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -374,6 +367,13 @@
   
   <url>
     <loc>https://zwrx.xyz/live2d_models/haruna/22/model.2016.xmas.1.json</loc>
+    
+    <lastmod>2021-03-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zwrx.xyz/live2d_models/haruna/22/model.2016.xmas.2.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -741,14 +741,14 @@
   </url>
   
   <url>
-    <loc>https://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
+    <loc>https://zwrx.xyz/categories/Linux/</loc>
     <lastmod>2021-05-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zwrx.xyz/categories/Linux/</loc>
+    <loc>https://zwrx.xyz/categories/%E7%A7%AF%E7%B4%AF/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</loc>
     <lastmod>2021-05-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

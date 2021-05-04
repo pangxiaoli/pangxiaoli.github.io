@@ -8,7 +8,7 @@
       <link href="2021/05/04/15/"/>
       <url>2021/05/04/15/</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>i3是一个平铺式窗口管理器，可以完全通过键盘控制它。</p></div>]]></content>
+        <content type="html"><![CDATA[<div class='poem'><div class='poem-title'>青春的太阳</div><div class='poem-author'>五四</div><p>我低头一瞥，<br>胸前的团徽闪烁着，<br>那么耀眼的光，<br>沉默中，<br>充满了胜利者的凯歌。<br>鲜艳的领巾跃动着，<br>那是我们的热血在燃烧。<br>微光里，<br>它们深深地互相赞颂了。<br>我的心不禁颤动了，<br>…</p></div><h2 id="i3是什么">i3是什么</h2><p>i3是一个平铺式窗口管理器，可以完全通过键盘控制它。使用C语言编写，但不需要直接修改源码去配置他。</p>]]></content>
       
       
       <categories>
