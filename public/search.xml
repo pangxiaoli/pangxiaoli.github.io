@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>i3|你的桌面何必是&quot;桌面&quot;</title>
+      <link href="2021/05/04/15/"/>
+      <url>2021/05/04/15/</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>i3是一个平铺式窗口管理器，可以完全通过键盘控制它。</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> i3 </tag>
+            
+            <tag> 窗口管理器 </tag>
+            
+            <tag> window manager </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>服务器搭积木|git篇</title>
       <link href="2021/04/28/14/"/>
       <url>2021/04/28/14/</url>

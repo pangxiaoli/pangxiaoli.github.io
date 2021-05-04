@@ -6,7 +6,7 @@
   <link href="https://zwrx.xyz/atom.xml" rel="self"/>
   
   <link href="https://zwrx.xyz/"/>
-  <updated>2021-04-28T16:20:35.276Z</updated>
+  <updated>2021-05-04T09:11:50.862Z</updated>
   <id>https://zwrx.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>i3|你的桌面何必是&quot;桌面&quot;</title>
+    <link href="https://zwrx.xyz/2021/05/04/15/"/>
+    <id>https://zwrx.xyz/2021/05/04/15/</id>
+    <published>2021-05-04T08:54:52.000Z</published>
+    <updated>2021-05-04T09:11:50.862Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><p>i3是一个平铺式窗口管理器，可以完全通过键盘控制它。</p></div>]]></content>
+    
+    
+    <summary type="html">用窗口管理器代替桌面环境</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://zwrx.xyz/categories/Linux/"/>
+    
+    
+    <category term="i3" scheme="https://zwrx.xyz/tags/i3/"/>
+    
+    <category term="窗口管理器" scheme="https://zwrx.xyz/tags/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86%E5%99%A8/"/>
+    
+    <category term="window manager" scheme="https://zwrx.xyz/tags/window-manager/"/>
+    
+  </entry>
   
   <entry>
     <title>服务器搭积木|git篇</title>
