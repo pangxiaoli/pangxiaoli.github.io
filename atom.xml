@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mirageの胖团子</title>
+  <title>Qiubitの修行路</title>
   
   
   <link href="https://zwrx.xyz/atom.xml" rel="self"/>
   
   <link href="https://zwrx.xyz/"/>
-  <updated>2021-05-04T09:53:56.165Z</updated>
+  <updated>2021-05-06T15:14:32.385Z</updated>
   <id>https://zwrx.xyz/</id>
   
   <author>
-    <name>Mirage</name>
+    <name>Qiubit</name>
     
   </author>
   
@@ -21,9 +21,9 @@
     <link href="https://zwrx.xyz/2021/05/04/15/"/>
     <id>https://zwrx.xyz/2021/05/04/15/</id>
     <published>2021-05-04T08:54:52.000Z</published>
-    <updated>2021-05-04T09:53:56.165Z</updated>
+    <updated>2021-05-06T15:14:32.385Z</updated>
     
-    <content type="html"><![CDATA[<div class='poem'><div class='poem-title'>青春的太阳</div><div class='poem-author'>五四</div><p>我低头一瞥，<br>胸前的团徽闪烁着，<br>那么耀眼的光，<br>沉默中，<br>充满了胜利者的凯歌。<br>鲜艳的领巾跃动着，<br>那是我们的热血在燃烧。<br>微光里，<br>它们深深地互相赞颂了。<br>我的心不禁颤动了，<br>…</p></div><h2 id="i3是什么">i3是什么</h2><p>i3(improved tiling wm)是一个平铺式窗口管理器，可以完全通过键盘控制它。使用C语言编写，但不需要直接修改源码去配置他。作者是<a href="https://michael.stapelberg.ch/">Michael Stapelberg</a></p>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><p>生命在于折腾，凡事计较值不值得便没有意义！</p></div><h2 id="i3是什么">i3是什么</h2><p>i3(improved tiling wm)是一个平铺式窗口管理器，可以完全通过键盘控制它。使用C语言编写，但不需要直接修改源码去配置他。作者是<a href="https://michael.stapelberg.ch/">Michael Stapelberg</a></p>]]></content>
     
     
     <summary type="html">用窗口管理器代替桌面环境</summary>
@@ -67,9 +67,9 @@
     <link href="https://zwrx.xyz/2021/04/28/13/"/>
     <id>https://zwrx.xyz/2021/04/28/13/</id>
     <published>2021-04-28T13:11:57.000Z</published>
-    <updated>2021-04-28T16:19:53.510Z</updated>
+    <updated>2021-05-06T15:14:06.592Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><p>生命在于折腾，凡事计较值不值得便没有意义，只要有一人能理解你，此生足矣！</p></div><p>服务器上像搭积木一样搭了很多服务，稍微记录一下，防止遗忘</p><h2 id="git-私服">git 私服</h2><a class="btn-beautify button--animated outline blue" href="https://zwrx.xyz/2021/04/28/14/"   title="点击前往"><i class="far fa-hand-point-right fa-fw"></i><span>点击前往</span></a><h2 id="在线图书馆-calbre-web">在线图书馆 calbre-web</h2><h2 id="v2ray">v2ray</h2><h2 id="图床">图床</h2><h2 id="Minecraft-私服">Minecraft 私服</h2><h2 id="博客">博客</h2>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><p>生命在于折腾，凡事计较值不值得便没有意义！</p></div><p>服务器上像搭积木一样搭了很多服务，稍微记录一下，防止遗忘</p><h2 id="git-私服">git 私服</h2><a class="btn-beautify button--animated outline blue" href="https://zwrx.xyz/2021/04/28/14/"   title="点击前往"><i class="far fa-hand-point-right fa-fw"></i><span>点击前往</span></a><h2 id="在线图书馆-calbre-web">在线图书馆 calbre-web</h2><h2 id="v2ray">v2ray</h2><h2 id="图床">图床</h2><h2 id="Minecraft-私服">Minecraft 私服</h2><h2 id="博客">博客</h2>]]></content>
     
     
     <summary type="html">那些搭在服务器上的『积木块』</summary>
