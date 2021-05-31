@@ -1,126 +1,85 @@
-body {
-    cursor: url(https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/default.cur), default
+@font-face{
+    font-family:'wb' ; 
+    src:url('/fonts/wb.ttf'); 
+    font-display : swap;
 }
 
-a,
-img {
-    cursor: url(https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/pointer.cur), default
+@font-face{
+    font-family:'HackI' ; 
+    src:url('/fonts/Hack-Italic.ttf'); 
+    font-display : swap;
 }
 
-@font-face {
-    font-family: MyFont;
-    src: url(https://cdn.jsdelivr.net/gh/zjwo/CDN@master/font/JetBrainsMono-Medium.woff2);
-    font-display: swap
+@font-face{
+    font-family:'Emily' ; 
+    src:url('/fonts/EmilysCandy-Regular.ttf'); 
+    font-display : swap;
 }
 
-#article-container code {
-    font-family: MyFont !important
+@font-face{
+    font-family:'zstx' ; 
+    src:url('/fonts/zstx.ttf'); 
+    font-display : swap;
 }
 
-@font-face {
-    font-family: 'arzhu';
-    src: url('https://cdn.jsdelivr.net/gh/zjwo/CDN@master/font/arzhu.ttf');
-    font-display: swap
+@font-face{
+    font-family:'yh' ; 
+    src:url('/fonts/yh.ttf'); 
+    font-display : swap;
 }
 
-h1#site-title {
-    font-family: arzhu !important
+/* 网站标题 */
+#site-name, #site-title {
+    font-family: 'zstx';
+}
+.author-info__name {
+    font-family: 'Emily';
 }
 
-span#subtitle {
-    font-family: arzhu !important
+/* 首页 */
+.article-title {
+    font-family: 'yh' !important;
+}
+.content {
+    font-family: 'wb';
+    font-size: 16px;
 }
 
-a#site-name {
-    font-family: arzhu !important
+/* 各级标题 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'yh';
 }
-
-[data-theme='dark'].formmain {
-    background: #323232
+h1 { font-size: 28px;}
+h2 { 
+    font-size: 24px;
+    border-bottom: dotted #49b1f5;
 }
-
-[data-theme='dark'].comments {
-    background: rgba(90, 90, 90, 0.8)
+h2::before {
+    content: "#" !important;
+    font-size: 26px !important;
+    top: calc(50% - 13px) !important;
+    color: #49b1f5;
 }
-
-span.inline-tag {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 90%;
-    font-weight: 400;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .1rem;
-    border-radius: 6px;
-    background-color: var(--Color)
+h3 { 
+    font-size: 20px;
+    margin-left: 0.6em !important;
 }
-
-p.red,
-span.red {
-    --Color: rgb(233, 30, 100);
-    --ColorA: rgba(233, 30, 100, 0.2);
+h3::before {
+    content: "##" !important;
+    font-size: 22px !important;
+    margin-left: -1.6rem !important;
+    top: calc(50% - 11px) !important;
+    color: #49b1f5;
 }
+h4 { font-size: 16px;}
+h5 { font-size: 12px;}
+h6 { font-size: 10px;}
 
-p.green,
-span.green {
-    --Color: rgb(139, 195, 74);
-    --ColorA: rgba(139, 195, 74, 0.2);
-}
 
-p.blue,
-span.blue {
-    --Color: rgb(3, 169, 244);
-    --ColorA: rgba(3, 169, 244, 0.2);
-}
-
-p.yellow,
-span.yellow {
-    --Color: rgb(255, 193, 7);
-    --ColorA: rgba(255, 193, 7, 0.2);
-}
-
-p.grey,
-span.grey {
-    --Color: rgb(76, 76, 76);
-    --ColorA: rgba(76, 76, 76, 0.2);
-}
-
-p.div-border {
-    padding: 10px;
-    border: 1px solid var(--Color, #333);
-    border-radius: 0.4rem;
-    background-color: var(--ColorA, transparent);
-}
-
-p.left {
-    border-left-width: 5px;
-    border-left-color: var(--Color);
-}
-
-p.bottom {
-    border-bottom-width: 5px;
-    border-bottom-color: var(--Color);
-}
-
-p.right {
-    border-right-width: 5px;
-    border-right-color: var(--Color);
-}
-
-p.top {
-    border-top-width: 5px;
-    border-top-color: var(--Color);
-}
-
-.tk-input[data-v-619b4c52] .el-textarea__inner {
-    min-height: 250px !important;
-}
-
-.el-textarea__inner:focus {
-    background-image: none !important;
+/* 正文 */
+p {
+    font-family: 'HackI','wb';
+    font-size: 17px;
 }
 
 /* aplayer */
