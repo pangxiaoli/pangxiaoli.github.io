@@ -1,30 +1,30 @@
 @font-face{
     font-family:'wb' ; 
-    src:url('/fonts/wb.ttf'); 
+    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/wb.ttf'); 
     font-display : swap;
 }
 
 @font-face{
     font-family:'HackI' ; 
-    src:url('/fonts/Hack-Italic.ttf'); 
+    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/Hack-Italic.ttf'); 
     font-display : swap;
 }
 
 @font-face{
     font-family:'Emily' ; 
-    src:url('/fonts/EmilysCandy-Regular.ttf'); 
+    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/EmilysCandy-Regular.ttf'); 
     font-display : swap;
 }
 
 @font-face{
     font-family:'zstx' ; 
-    src:url('/fonts/zstx.ttf'); 
+    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/zstx.ttf'); 
     font-display : swap;
 }
 
 @font-face{
     font-family:'yh' ; 
-    src:url('/fonts/yh.ttf'); 
+    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/yh.ttf'); 
     font-display : swap;
 }
 
