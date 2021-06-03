@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/models.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/textures.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/textures.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/models.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -289,14 +289,14 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/33/model.2018.bls-summer.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/33/model.2018.bls-winter.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/33/model.2018.bls-winter.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/33/model.2018.bls-summer.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -310,13 +310,6 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/33/model.2018.spring.json</loc>
-    
-    <lastmod>2021-03-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://qiubit.cc/live2d_models/haruna/33/model.default.json</loc>
     
     <lastmod>2021-03-31</lastmod>
@@ -324,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/Gallery/index.html</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/33/model.2018.spring.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -338,14 +331,14 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/Gallery/Cube/index.html</loc>
+    <loc>https://qiubit.cc/Gallery/index.html</loc>
     
     <lastmod>2021-03-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://qiubit.cc/Gallery/Somebody/index.html</loc>
+    <loc>https://qiubit.cc/Gallery/Cube/index.html</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -359,6 +352,13 @@
   </url>
   
   <url>
+    <loc>https://qiubit.cc/Gallery/Somebody/index.html</loc>
+    
+    <lastmod>2021-03-31</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://qiubit.cc/Gallery/lover/index.html</loc>
     
     <lastmod>2021-03-31</lastmod>
@@ -366,14 +366,14 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2016.xmas.2.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2016.xmas.1.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2016.xmas.1.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2016.xmas.2.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -436,13 +436,6 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2017.tomo-bukatsu.high.json</loc>
-    
-    <lastmod>2021-03-31</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://qiubit.cc/live2d_models/haruna/22/model.2017.tomo-bukatsu.low.json</loc>
     
     <lastmod>2021-03-31</lastmod>
@@ -451,6 +444,13 @@
   
   <url>
     <loc>https://qiubit.cc/live2d_models/haruna/22/model.2017.valley.json</loc>
+    
+    <lastmod>2021-03-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2017.tomo-bukatsu.high.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
@@ -485,14 +485,14 @@
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2018.spring.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/22/model.default.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
   </url>
   
   <url>
-    <loc>https://qiubit.cc/live2d_models/haruna/22/model.default.json</loc>
+    <loc>https://qiubit.cc/live2d_models/haruna/22/model.2018.spring.json</loc>
     
     <lastmod>2021-03-31</lastmod>
     
