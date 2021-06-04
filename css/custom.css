@@ -97,8 +97,3 @@ p {
 #footer {
     background-color: rgb(161, 196, 253) !important;
 }
-
-/* 卡片 */
---card-bg {
-    background-color: rgba(161, 196, 253, 80) !important
-}
