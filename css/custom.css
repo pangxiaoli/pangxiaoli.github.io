@@ -92,3 +92,13 @@ p {
     left: 0 !important;
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
+
+/* 页脚 */
+#footer {
+    background-color: rgb(161, 196, 253) !important;
+}
+
+/* 卡片 */
+--card-bg {
+    background-color: rgba(161, 196, 253, 80) !important
+}
