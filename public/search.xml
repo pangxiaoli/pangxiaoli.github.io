@@ -42,7 +42,7 @@
       
       <categories>
           
-          <category> 服务器 </category>
+          <category> Linux </category>
           
       </categories>
       
@@ -67,7 +67,7 @@
       
       <categories>
           
-          <category> 服务器 </category>
+          <category> Linux </category>
           
       </categories>
       
@@ -117,9 +117,7 @@
       
       <categories>
           
-          <category> 积累 </category>
-          
-          <category> 名词解释 </category>
+          <category> 杂记 </category>
           
       </categories>
       
@@ -150,7 +148,7 @@
       
       <categories>
           
-          <category> 配置 </category>
+          <category> Linux </category>
           
       </categories>
       
@@ -177,7 +175,7 @@
       
       <categories>
           
-          <category> 编程 </category>
+          <category> 前端 </category>
           
       </categories>
       
@@ -231,7 +229,7 @@
       
       <categories>
           
-          <category> 计组 </category>
+          <category> 笔记 </category>
           
       </categories>
       
@@ -290,8 +288,6 @@
       
         <tags>
             
-            <tag> 语法 </tag>
-            
             <tag> hexo </tag>
             
         </tags>
@@ -310,7 +306,7 @@
       
       <categories>
           
-          <category> 技巧 </category>
+          <category> Linux </category>
           
       </categories>
       
@@ -335,7 +331,7 @@
       
       <categories>
           
-          <category> 配置 </category>
+          <category> Linux </category>
           
       </categories>
       
@@ -343,8 +339,6 @@
         <tags>
             
             <tag> vim </tag>
-            
-            <tag> 配置 </tag>
             
         </tags>
       
@@ -362,7 +356,7 @@
       
       <categories>
           
-          <category> 其他 </category>
+          <category> Linux </category>
           
       </categories>
       
@@ -387,7 +381,7 @@
       
       <categories>
           
-          <category> 其他 </category>
+          <category> hexo </category>
           
       </categories>
       
@@ -395,8 +389,6 @@
         <tags>
             
             <tag> markdown </tag>
-            
-            <tag> 语法 </tag>
             
         </tags>
       
@@ -414,14 +406,14 @@
       
       <categories>
           
-          <category> 其他 </category>
+          <category> 杂记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 杂谈 </tag>
+            <tag> 杂记 </tag>
             
         </tags>
       
