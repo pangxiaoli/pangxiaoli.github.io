@@ -3849,14 +3849,14 @@
 });
 
 function bot_ui_ini() {
-    var botui = new BotUI("hello-mirage");
+    var botui = new BotUI("hello-Qiubit");
     botui.message.add({
         delay: 800,
         content: "Hi, Welcome to my cabin 🍭"
     }).then(function () {
         botui.message.add({
             delay: 1000,
-            content: "这里是 Mirage"
+            content: "这里是 Qiubit"
         }).then(function () {
             botui.message.add({
                 delay: 1000,
@@ -3899,7 +3899,7 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1000,
-                    content: "以Mirage/胖小离为ID混迹在互联网的各个角落🍀"
+                    content: "以Qiubit/胖小离为ID混迹在互联网的各个角落🍀"
                 }).then(function () {
                     botui.message.add({
                         delay: 1000,
@@ -3916,7 +3916,7 @@ function bot_ui_ini() {
                                 botui.action.button({
                                     delay: 1000,
                                     action: [{
-                                        text: "为什么叫Mirage呢？🤔",
+                                        text: "为什么叫Qiubit呢？🤔",
                                         value: "why-mashiro"
                                     }]
                                 }).then(function (a) {
@@ -3952,7 +3952,7 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "也许，明天我就会换到这一个域名吧 👉 [blog.mirage.wang](http://blog.mirage.wang)^"
+                content: "也许，明天我就会换到这一个域名吧 👉 [blog.Qiubit.wang](http://blog.Qiubit.wang)^"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
