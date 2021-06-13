@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://qiubit.cc/link/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://qiubit.cc/talk/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -31,13 +38,6 @@
   
   <url>
     <loc>https://qiubit.cc/2021/04/01/05/</loc>
-    
-    <lastmod>2021-06-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://qiubit.cc/link/index.html</loc>
     
     <lastmod>2021-06-04</lastmod>
     
@@ -508,6 +508,13 @@
 
   
   <url>
+    <loc>https://qiubit.cc/tags/%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2021-06-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://qiubit.cc/tags/markdown/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
@@ -516,13 +523,6 @@
   
   <url>
     <loc>https://qiubit.cc/tags/git/</loc>
-    <lastmod>2021-06-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://qiubit.cc/tags/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -664,6 +664,13 @@
 
   
   <url>
+    <loc>https://qiubit.cc/categories/%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2021-06-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://qiubit.cc/categories/hexo/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
@@ -672,13 +679,6 @@
   
   <url>
     <loc>https://qiubit.cc/categories/Linux/</loc>
-    <lastmod>2021-06-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://qiubit.cc/categories/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
