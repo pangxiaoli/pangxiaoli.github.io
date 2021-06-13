@@ -55,7 +55,7 @@ h2 {
     border-bottom: dotted #49b1f5;
 }
 h2::before {
-    content: "#" !important;
+    content: "🌱" !important;
     font-size: 26px !important;
     top: calc(50% - 13px) !important;
     color: #49b1f5;
@@ -65,7 +65,7 @@ h3 {
     margin-left: 0.6em !important;
 }
 h3::before {
-    content: "##" !important;
+    content: "🍀" !important;
     font-size: 22px !important;
     margin-left: -1.6rem !important;
     top: calc(50% - 11px) !important;
