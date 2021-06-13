@@ -94,8 +94,8 @@ p {
 }
 
 /* 评论框 */
-.tk-input {
-    height: 200px;
+.el-textarea__inner {
+    height: 200px !important;
 }
 
 /* 页脚 */
