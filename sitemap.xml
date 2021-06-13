@@ -508,13 +508,6 @@
 
   
   <url>
-    <loc>https://qiubit.cc/tags/%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2021-06-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://qiubit.cc/tags/markdown/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
@@ -523,6 +516,13 @@
   
   <url>
     <loc>https://qiubit.cc/tags/git/</loc>
+    <lastmod>2021-06-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiubit.cc/tags/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -664,13 +664,6 @@
 
   
   <url>
-    <loc>https://qiubit.cc/categories/%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2021-06-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://qiubit.cc/categories/hexo/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
@@ -679,6 +672,13 @@
   
   <url>
     <loc>https://qiubit.cc/categories/Linux/</loc>
+    <lastmod>2021-06-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qiubit.cc/categories/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2021-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
