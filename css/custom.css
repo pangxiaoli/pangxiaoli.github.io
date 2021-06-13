@@ -93,6 +93,11 @@ p {
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
 
+/* 评论框 */
+.tk-input {
+    height: 200px;
+}
+
 /* 页脚 */
 #footer {
     background-color: rgb(161, 196, 253) !important;
