@@ -138,7 +138,7 @@ p {
 /* 页脚跳动的心 */
 #heart {
     color: red;
-    animation: iconAnimate 1.33s ease-in-out infinite
+    /* animation: iconAnimate 1.33s ease-in-out infinite */
 }
 
 @-moz-keyframes iconAnimate {
