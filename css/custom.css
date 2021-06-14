@@ -1,37 +1,39 @@
-@font-face{
-    font-family:'wb' ; 
-    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/wb.ttf'); 
-    font-display : swap;
+@font-face {
+    font-family: 'wb';
+    src: url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/wb.ttf');
+    font-display: swap;
 }
 
-@font-face{
-    font-family:'HackI' ; 
-    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/Hack-Italic.ttf'); 
-    font-display : swap;
+@font-face {
+    font-family: 'HackI';
+    src: url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/Hack-Italic.ttf');
+    font-display: swap;
 }
 
-@font-face{
-    font-family:'Emily' ; 
-    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/EmilysCandy-Regular.ttf'); 
-    font-display : swap;
+@font-face {
+    font-family: 'Emily';
+    src: url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/EmilysCandy-Regular.ttf');
+    font-display: swap;
 }
 
-@font-face{
-    font-family:'zstx' ; 
-    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/zstx.ttf'); 
-    font-display : swap;
+@font-face {
+    font-family: 'zstx';
+    src: url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/zstx.ttf');
+    font-display: swap;
 }
 
-@font-face{
-    font-family:'yh' ; 
-    src:url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/yh.ttf'); 
-    font-display : swap;
+@font-face {
+    font-family: 'yh';
+    src: url('https://cdn.jsdelivr.net/gh/pangxiaoli/static@master/fonts/yh.ttf');
+    font-display: swap;
 }
 
 /* 网站标题 */
-#site-name, #site-title {
+#site-name,
+#site-title {
     font-family: 'zstx';
 }
+
 .author-info__name {
     font-family: 'Emily';
 }
@@ -40,30 +42,43 @@
 .article-title {
     font-family: 'yh' !important;
 }
+
 .content {
     font-family: 'wb';
     font-size: 16px;
 }
 
 /* 各级标题 */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'yh';
 }
-h1 { font-size: 28px;}
-h2 { 
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
     font-size: 24px;
     border-bottom: dotted #49b1f5;
 }
+
 h2::before {
     content: "#" !important;
     font-size: 26px !important;
     top: calc(50% - 13px) !important;
     color: #49b1f5;
 }
-h3 { 
+
+h3 {
     font-size: 20px;
     margin-left: 0.6em !important;
 }
+
 h3::before {
     content: "##" !important;
     font-size: 22px !important;
@@ -71,14 +86,23 @@ h3::before {
     top: calc(50% - 11px) !important;
     color: #49b1f5;
 }
-h4 { font-size: 16px;}
-h5 { font-size: 12px;}
-h6 { font-size: 10px;}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 10px;
+}
 
 
 /* 正文 */
 p {
-    font-family: 'HackI','wb';
+    font-family: 'HackI', 'wb';
     font-size: 17px;
 }
 
@@ -111,11 +135,108 @@ p {
     color: var(--white);
 }
 
-/**
- * Minified by jsDelivr using clean-css v4.2.3.
- * Original file: /gh/HCLonely/images@master/others/heartbeat.css
- *
- * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
- */
- #heartbeat{color:red;animation:iconAnimate 1.33s ease-in-out infinite}@-moz-keyframes iconAnimate{0%,100%{transform:scale(1)}10%,30%{transform:scale(.9)}20%,40%,60%,80%{transform:scale(1.1)}50%,70%{transform:scale(1.1)}}@-webkit-keyframes iconAnimate{0%,100%{transform:scale(1)}10%,30%{transform:scale(.9)}20%,40%,60%,80%{transform:scale(1.1)}50%,70%{transform:scale(1.1)}}@-o-keyframes iconAnimate{0%,100%{transform:scale(1)}10%,30%{transform:scale(.9)}20%,40%,60%,80%{transform:scale(1.1)}50%,70%{transform:scale(1.1)}}@keyframes iconAnimate{0%,100%{transform:scale(1)}10%,30%{transform:scale(.9)}20%,40%,60%,80%{transform:scale(1.1)}50%,70%{transform:scale(1.1)}}
- /*# sourceMappingURL=/sm/7c97f3456d34ee6c17ca4a9141bef0f29c52d1ce9d85298b17f398a0de252965.map */
+/* 页脚跳动的心 */
+#heart {
+    color: red;
+    animation: iconAnimate 1.33s ease-in-out infinite
+}
+
+@-moz-keyframes iconAnimate {
+
+    0%,
+    100% {
+        transform: scale(1)
+    }
+
+    10%,
+    30% {
+        transform: scale(.9)
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: scale(1.1)
+    }
+
+    50%,
+    70% {
+        transform: scale(1.1)
+    }
+}
+
+@-webkit-keyframes iconAnimate {
+
+    0%,
+    100% {
+        transform: scale(1)
+    }
+
+    10%,
+    30% {
+        transform: scale(.9)
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: scale(1.1)
+    }
+
+    50%,
+    70% {
+        transform: scale(1.1)
+    }
+}
+
+@-o-keyframes iconAnimate {
+
+    0%,
+    100% {
+        transform: scale(1)
+    }
+
+    10%,
+    30% {
+        transform: scale(.9)
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: scale(1.1)
+    }
+
+    50%,
+    70% {
+        transform: scale(1.1)
+    }
+}
+
+@keyframes iconAnimate {
+
+    0%,
+    100% {
+        transform: scale(1)
+    }
+
+    10%,
+    30% {
+        transform: scale(.9)
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: scale(1.1)
+    }
+
+    50%,
+    70% {
+        transform: scale(1.1)
+    }
+}
