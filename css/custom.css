@@ -100,5 +100,13 @@ p {
 
 /* 页脚 */
 #footer {
-    background: linear-gradient(120deg, rgb(161, 196, 253) 0%, rgb(194, 233, 251) 100%);
+    background: linear-gradient(rgb(161, 196, 253) 0%, rgb(194, 233, 251) 100%);
+}
+
+#footer-wrap {
+    color: var(--white);
+}
+
+#footer-wrap a {
+    color: var(--white);
 }
