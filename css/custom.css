@@ -63,14 +63,14 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 22px;
     border-bottom: dotted #49b1f5;
 }
 
 h2::before {
     content: "#" !important;
-    font-size: 26px !important;
-    top: calc(50% - 13px) !important;
+    font-size: 24px !important;
+    top: calc(50% - 12px) !important;
     color: #49b1f5;
 }
 
