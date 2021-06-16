@@ -99,6 +99,9 @@ h6 {
     font-size: 10px;
 }
 
+li {
+    top: 1.45em;
+}
 
 /* 正文 */
 p {
