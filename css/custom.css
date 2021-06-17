@@ -40,7 +40,7 @@
 
 /* 首页 */
 .article-title {
-    font-family: 'yh' !important;
+    font-family: 'HackI','yh' !important;
 }
 
 .content {
@@ -55,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'yh';
+    font-family: 'HackI','yh';
 }
 
 h1 {
